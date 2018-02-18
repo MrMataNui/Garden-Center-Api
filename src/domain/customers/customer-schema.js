@@ -1,7 +1,7 @@
 module.exports = {
 	"type": "object",
 	"properties": {
-		"_id": {
+		"id": {
 			"type": "string"
 		},
 		"name": {

@@ -1,6 +1,6 @@
 [
 	{
-		"_id": "1",
+		"id": "1",
 		"name": "Tyler Tolson",
 		"title": "Student",
 		"roles": [
@@ -10,7 +10,7 @@
 		"password": "dVepYoP3"
 	},
 	{
-		"_id": "2",
+		"id": "2",
 		"name": "Jay Wojciechowski",
 		"title": "Student",
 		"roles": [
@@ -20,7 +20,7 @@
 		"password": "O6Lr6SK8M3"
 	},
 	{
-		"_id": "3",
+		"id": "3",
 		"name": "Dmytro Turchenko",
 		"title": "Student",
 		"roles": [
@@ -30,7 +30,7 @@
 		"password": "lzROjB"
 	},
 	{
-		"_id": "4",
+		"id": "4",
 		"name": "David Trinkoff",
 		"title": "Student",
 		"roles": [
@@ -40,7 +40,7 @@
 		"password": "6TSDCKl"
 	},
 	{
-		"_id": "5",
+		"id": "5",
 		"name": "Robert Fuller",
 		"title": "Trainer's Assistant",
 		"roles": [
@@ -50,7 +50,7 @@
 		"password": "jvDiQhFybwN"
 	},
 	{
-		"_id": "6",
+		"id": "6",
 		"name": "Jeff Snyder",
 		"title": "Trainer",
 		"roles": [

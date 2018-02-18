@@ -1,8 +1,8 @@
 const DEBUG = require("debug")("gcapi:product:router:id");
 module.exports = (router, service, req, res) => {
-	router.get("/:_id", (req, res) => {
+	router.get("/:id", (req, res) => {
 	let productIndex = ``;
-		service.retrieveByQuery( {"_id": req.params._id}, (docs) => {
+		service.retrieveByQuery( {"id": req.params.id}, (docs) => {
 			if (docs.length === 0) {
 				// res.sendStatus(204);
 			} else {
@@ -11,7 +11,7 @@ module.exports = (router, service, req, res) => {
 					// DEBUG(docs[i].inventory);
 					allTableRows += `
 						<tr>
-							<td>${docs[i]._id}<td>
+							<td>${docs[i].id}<td>
 							<td>${docs[i].sku}<td>
 							<td>${docs[i].name}<td>
 							<td>${docs[i].productType}<td>

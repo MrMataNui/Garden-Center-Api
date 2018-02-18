@@ -61,7 +61,7 @@ module.exports = (req, res, next) => {
 						let order5 = [ orderNum[4], orderItems[4] ];
 						allTableRows += `
 							<tr>
-								<td>${docs[i]._id}<td>
+								<td>${docs[i].id}<td>
 									<td><a href='${user[0]}'>${user[1]}</a><td>
 									<td><a href='${customer[0]}'>${customer[1]}</a><td>
 									<td>${date}<td>

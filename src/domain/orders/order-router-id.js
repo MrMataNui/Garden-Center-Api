@@ -4,23 +4,23 @@ module.exports = (router, services, GET, req, res) => {
 	const o_service = services.order;
 	const c_service = services.customer;
 	const u_service = services.user;
-	router.get("/:_id", (req, res) => {
+	router.get("/:id", (req, res) => {
 		let orderIndex;
 		let index;
-		o_service.retrieveByQuery({"_id": req.params._id}, (o_docs) => {
+		o_service.retrieveByQuery({"id": req.params.id}, (o_docs) => {
 			if (o_docs.length === 0) {
 				res.sendStatus(204);
 				// res.end(`<h1>Error</h1>`);
 			} else {
 				let allTableRows = ``;
 				// DEBUG(o_docs[0].inventory);
-				c_service.retrieveByQuery({"_id": o_docs[0].customerId}, (c_docs) => {
+				c_service.retrieveByQuery({"id": o_docs[0].customerId}, (c_docs) => {
 					if (c_docs.length === 0) {
 						res.sendStatus(204);
 					} else {
 						let customerName = c_docs[0].name;
 						// DEBUG(customerName);
-						u_service.retrieveByQuery({"_id": o_docs[0].userId}, (u_docs) => {
+						u_service.retrieveByQuery({"id": o_docs[0].userId}, (u_docs) => {
 							if (u_docs.length === 0) {
 								res.sendStatus(204);
 							} else {
@@ -48,7 +48,7 @@ module.exports = (router, services, GET, req, res) => {
 								let order5 = [ orderNum[4], orderItems[4] ];
 								allTableRows += `
 									<tr>
-										<td>${o_docs[0]._id}<td>
+										<td>${o_docs[0].id}<td>
 										<td>${userName}<td>
 										<td>${customerName}<td>
 										<td>${date}<td>

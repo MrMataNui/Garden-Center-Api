@@ -21,7 +21,7 @@ module.exports = (name, router, page, Class, GET) => {
 			res.status(201).send(`Success! Your ${name.slice(0, -1)} has been entered.`);
 		}
 	});
-	router.put(`${page}/:_id`, (req, res) => {
+	router.put(`${page}/:id`, (req, res) => {
 		if (page.indexOf("orders") >= 0) {
 			let newOrder = GET.newOrder(GET, Class, req.body, req.params.id);
 			if (newOrder === "Not Enough Products") {

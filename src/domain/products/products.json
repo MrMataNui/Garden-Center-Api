@@ -1,6 +1,6 @@
 [
 	{
-		"_id": "5a81f9bb5458fa0c84d0645a",
+		"id": "5a81f9bb5458fa0c84d0645a",
 		"sku": 151846791351370486,
 		"productType": "Rake",
 		"name": "Hauck, Wiegand and Gusikowski",
@@ -17,7 +17,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb461d8407520e3513",
+		"id": "5a81f9bb461d8407520e3513",
 		"sku": 151846791388397188,
 		"productType": "Plant",
 		"name": "McLaughlin Group",
@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbbc7c6d1dc79843e9",
+		"id": "5a81f9bbbc7c6d1dc79843e9",
 		"sku": 151846791329335149,
 		"productType": "Wagon",
 		"name": "Schuster-Rau",
@@ -51,7 +51,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbf25ac0784de5e643",
+		"id": "5a81f9bbf25ac0784de5e643",
 		"sku": 151846791394564883,
 		"productType": "Wagon",
 		"name": "Bins and Sons",
@@ -68,7 +68,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbe2025452fb556723",
+		"id": "5a81f9bbe2025452fb556723",
 		"sku": 151846791359742544,
 		"productType": "Rake",
 		"name": "Auer, Dibbert and Ward",
@@ -85,7 +85,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bba000b4cc6323221b",
+		"id": "5a81f9bba000b4cc6323221b",
 		"sku": 151846791374990728,
 		"productType": "Rake",
 		"name": "Cole, Runolfsdottir and Murray",
@@ -102,7 +102,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbbaac3022f22bff45",
+		"id": "5a81f9bbbaac3022f22bff45",
 		"sku": 151846791384774174,
 		"productType": "Rake",
 		"name": "McClure, Kiehn and Lockman",
@@ -119,7 +119,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb2a1d817de8587c14",
+		"id": "5a81f9bb2a1d817de8587c14",
 		"sku": 151846791314396566,
 		"productType": "Wagon",
 		"name": "Shanahan, Satterfield and Thiel",
@@ -136,7 +136,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbb3690320608be37f",
+		"id": "5a81f9bbb3690320608be37f",
 		"sku": 151846791337937523,
 		"productType": "Wagon",
 		"name": "Rempel-Jaskolski",
@@ -153,7 +153,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbad79b2c28d1f962a",
+		"id": "5a81f9bbad79b2c28d1f962a",
 		"sku": 151846791387038051,
 		"productType": "Plant",
 		"name": "Koepp, Treutel and Pollich",
@@ -170,7 +170,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb31c2e656df0a1cdd",
+		"id": "5a81f9bb31c2e656df0a1cdd",
 		"sku": 151846791392634629,
 		"productType": "Rake",
 		"name": "Kohler and Sons",
@@ -187,7 +187,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb596d4dcf61118e3a",
+		"id": "5a81f9bb596d4dcf61118e3a",
 		"sku": 151846791332916910,
 		"productType": "Plant",
 		"name": "Franecki, Buckridge and Pollich",
@@ -204,7 +204,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb0473c3a2bb9ecf45",
+		"id": "5a81f9bb0473c3a2bb9ecf45",
 		"sku": 151846791332916910,
 		"productType": "Gloves",
 		"name": "Lang, Shanahan and Crona",
@@ -221,7 +221,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb2c6b9012343972d2",
+		"id": "5a81f9bb2c6b9012343972d2",
 		"sku": 151846791311419535,
 		"productType": "Gloves",
 		"name": "Hirthe, Nienow and Robel",
@@ -238,7 +238,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb5ff7123ca4678d8a",
+		"id": "5a81f9bb5ff7123ca4678d8a",
 		"sku": 151846791371875234,
 		"productType": "Plant",
 		"name": "Larkin, Mertz and Sauer",
@@ -255,7 +255,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb5ff7123ca4678d8b",
+		"id": "5a81f9bb5ff7123ca4678d8b",
 		"sku": 151846791342442176,
 		"productType": "Wagon",
 		"name": "Runolfsdottir-Harber",
@@ -272,7 +272,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb8534b3a53d399272",
+		"id": "5a81f9bb8534b3a53d399272",
 		"sku": 151846791350520217,
 		"productType": "Wagon",
 		"name": "Erdman-Krajcik",
@@ -289,7 +289,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb811253bb2640e370",
+		"id": "5a81f9bb811253bb2640e370",
 		"sku": 151846791323467602,
 		"productType": "Plant",
 		"name": "Hansen-Schuppe",
@@ -306,7 +306,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb04f8c4bf9604d894",
+		"id": "5a81f9bb04f8c4bf9604d894",
 		"sku": 151846791319789570,
 		"productType": "Rake",
 		"name": "Wilkinson-Padberg",
@@ -323,7 +323,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb55a08c13b942a1c3",
+		"id": "5a81f9bb55a08c13b942a1c3",
 		"sku": 151846791332443563,
 		"productType": "Gloves",
 		"name": "Sauer-Hilll",
@@ -340,7 +340,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb051304ace71c7d5b",
+		"id": "5a81f9bb051304ace71c7d5b",
 		"sku": 151846791368378019,
 		"productType": "Wagon",
 		"name": "Gutkowski Group",
@@ -357,7 +357,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb13f964874303685a",
+		"id": "5a81f9bb13f964874303685a",
 		"sku": 151846791398589647,
 		"productType": "Wagon",
 		"name": "Dietrich, Abernathy and Mayer",
@@ -374,7 +374,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb23bd36784fbf1691",
+		"id": "5a81f9bb23bd36784fbf1691",
 		"sku": 151846791322326571,
 		"productType": "Gloves",
 		"name": "Ferry Group",
@@ -391,7 +391,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bbd5bb2cde601dc69b",
+		"id": "5a81f9bbd5bb2cde601dc69b",
 		"sku": 151846791322326571,
 		"productType": "Gloves",
 		"name": "Cormier LLC",
@@ -408,7 +408,7 @@
 		]
 	},
 	{
-		"_id": "5a81f9bb0f964e63b1472ca1",
+		"id": "5a81f9bb0f964e63b1472ca1",
 		"sku": 151846791365340420,
 		"productType": "Gloves",
 		"name": "Lang Inc",

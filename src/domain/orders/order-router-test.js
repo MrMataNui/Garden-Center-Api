@@ -39,7 +39,7 @@ module.exports = (req, res, next) => {
 					for (let i in docs) {
 						// DEBUG(docs[i].inventory);
 						c_service.retrieveByQuery(
-							{"_id": docs[i].customerId},
+							{"id": docs[i].customerId},
 							(c_docs) => {
 								if (c_docs.length === 0) {
 									res.sendStatus(204);
@@ -47,7 +47,7 @@ module.exports = (req, res, next) => {
 									let customerName = c_docs[0].name;
 									// DEBUG(customerName);
 									u_service.retrieveByQuery(
-										{"_id": docs[i].userId},
+										{"id": docs[i].userId},
 										(u_docs) => {
 											if (u_docs.length === 0) {
 												res.sendStatus(204);
@@ -58,7 +58,7 @@ module.exports = (req, res, next) => {
 												let orderTotal = FORMAT.toDollar(docs[i].orderTotal);
 												allTableRows += `
 													<tr>
-														<td>${docs[i]._id}<td>
+														<td>${docs[i].id}<td>
 														<td>${docs[i].userId}
 															${userName}<td>
 														<td>${docs[i].customerId}

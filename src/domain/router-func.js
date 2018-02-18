@@ -23,9 +23,9 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 	} else if (name === "customers") {
 		require("./customers/customer-router-id")(router, service, req, res);
 	} else {
-		router.get("/:_id", (req, res) => {
+		router.get("/:id", (req, res) => {
 			service.retrieveByQuery (
-				{ "_id": req.params._id },
+				{ "id": req.params.id },
 				(docs) => {
 					if (docs.length === 0) {
 						res.sendStatus(204);
@@ -48,7 +48,7 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 					if (docs.length === 0) {
 						res.sendStatus(204);
 					} else {
-						res.json(docs);
+						res.end(`success`);
 					}
 				},
 				(err) => {
@@ -58,9 +58,9 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 			res.status(201).send(`Success! Your ${name.slice(0, -1)} has been entered.`);
 		}
 	});
-	router.put("/:_id", (req, res) => {
+	router.put("/:id", (req, res) => {
 		if (name === "orders") {
-			let newOrder = GET.newOrder(GET, Class, req.body, req.params._id);
+			let newOrder = GET.newOrder(GET, Class, req.body, req.params.id);
 			if (newOrder === "Not Enough Products") {
 				let errorMsg = `${newOrder}. Please order fewer items.`;
 				res.status(400).send(`Error: "${errorMsg}"`);
@@ -96,9 +96,9 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 			res.status(201).send(`Success! Your ${name.slice(0, -1)} has been entered.`);
 		}
 	});
-	router.delete("/:_id", (req, res) => {
+	router.delete("/:id", (req, res) => {
 		service.deleteById (
-			req.params._id,
+			req.params.id,
 			(docs) => {
 				if (docs.length === 0) {
 					res.sendStatus(204);

@@ -1,5 +1,4 @@
 module.exports = `
-/* html {background-image: url('general_background.png');} */
 main {
 	font-family: 'Ubuntu Mono', serif;
 	margin: auto;
@@ -57,7 +56,7 @@ table {
 td {
 	border: 1px solid black;
 }
-td:nth-of-type(odd):not( :nth-of-type(1) )/* :not( :nth-of-type(3) ) */
+td:nth-of-type(odd):not( :nth-of-type(1) )
 {
 	width: 10em;
 }

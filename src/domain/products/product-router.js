@@ -19,7 +19,7 @@ module.exports = (req, res, next) => {
 					// DEBUG(docs[i].inventory);
 					allTableRows += `
 						<tr>
-							<td>${docs[i]._id}<td>
+							<td>${docs[i].id}<td>
 							<td>${docs[i].sku}<td>
 							<td>${docs[i].name}<td>
 							<td>${docs[i].productType}<td>

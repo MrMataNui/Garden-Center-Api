@@ -4,6 +4,7 @@ const AJV = require("ajv");
 const ajv = new AJV();
 const SCHEMA = require("./order-schema");
 const VALIDATE = ajv.compile(SCHEMA);
+// const User = mongoose.model("User", nameSchema);
 const MONGO_CLIENT = require("../../lib/mongo-client");
 
 module.exports = class OrderService {

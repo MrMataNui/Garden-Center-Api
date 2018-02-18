@@ -19,7 +19,7 @@ module.exports = (req, res, next) => {
 					for (let i in docs) {
 						allTableRows += `
 							<tr>
-								<td>${docs[i]._id}<td>
+								<td>${docs[i].id}<td>
 								<td>${docs[i].name}<td>
 								<td>${docs[i].email}<td>
 								<td>${docs[i].address.street}<td>

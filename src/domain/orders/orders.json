@@ -1,6 +1,6 @@
 [
 	{
-		"_id": "5a81e4adfcb2f5d8c6310bfd",
+		"id": "5a81e4adfcb2f5d8c6310bfd",
 		"userId": "5a81e4ad060b0f050d10b234",
 		"customerId": "5a81e4adfeff344f2722a642",
 		"date": "12/12/2016T14:44:30.652Z",
@@ -21,7 +21,7 @@
 		]
 	},
 	{
-		"_id": "5a81e4ad427918daaca55d96",
+		"id": "5a81e4ad427918daaca55d96",
 		"userId": "5a81e4ad141e30cb14964066",
 		"customerId": "5a81e4adfbf7f355c4f9e774",
 		"date": "2/10/2017T12:24:30.652Z",
@@ -42,7 +42,7 @@
 		]
 	},
 	{
-		"_id": "5a81e4ad1d22fb435c913b95",
+		"id": "5a81e4ad1d22fb435c913b95",
 		"userId": "5a81e4ad5ce842ac22b85175",
 		"customerId": "5a81e4ad0d2385addfbac1d6",
 		"date": "2/12/2017T4:40:30.652Z",
@@ -63,7 +63,7 @@
 		]
 	},
 	{
-		"_id": "5a81e4ad2a1e53fdc2ea67f4",
+		"id": "5a81e4ad2a1e53fdc2ea67f4",
 		"userId": "5a81e4ad12791688f0edb779",
 		"customerId": "5a81e4ad3acc77a52b04dd27",
 		"date": "2/20/2017T14:44:30.652Z",
@@ -84,7 +84,7 @@
 		]
 	},
 	{
-		"_id": "5a81e4adcc584313a5e43e91",
+		"id": "5a81e4adcc584313a5e43e91",
 		"userId": "5a81e4add3dfa7cc4346b427",
 		"customerId": "5a81e4ade23e14b3b8942b56",
 		"date": "3/1/2017T15:27:30.652Z",
