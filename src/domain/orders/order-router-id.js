@@ -32,13 +32,13 @@ module.exports = (router, services, GET, req, res) => {
 								for ( let i = 0; i < 5; i++ ) {
 									orderItems.push(
 										( o_docs[0].items[i] )
-											? `#${o_docs[0].items[i].itemId}`
+											? `Item<br>#${o_docs[0].items[i].itemId}`
 											: 'N/A'
 									);
 									orderNum.push(
 										( o_docs[0].items[i] )
-											? `${o_docs[0].items[i].itemId}`
-											: 'N/A'
+											? `/products/${o_docs[0].items[i].itemId}`
+											: '/'
 									);
 								}
 								let order1 = [ orderNum[0], orderItems[0] ];
@@ -53,11 +53,11 @@ module.exports = (router, services, GET, req, res) => {
 										<td>${customerName}<td>
 										<td>${date}<td>
 										<td>${orderTotal}<td>
-										<td><a href='/products/${order1[0]}'>${order1[1]}</a><td>
-										<td><a href='/products/${order2[0]}'>${order2[1]}</a><td>
-										<td><a href='/products/${order3[0]}'>${order3[1]}</a><td>
-										<td><a href='/products/${order4[0]}'>${order4[1]}</a><td>
-										<td><a href='/products/${order5[0]}'>${order5[1]}</a><td>
+										<td><a href='${order1[0]}'>${order1[1]}</a><td>
+										<td><a href='${order2[0]}'>${order2[1]}</a><td>
+										<td><a href='${order3[0]}'>${order3[1]}</a><td>
+										<td><a href='${order4[0]}'>${order4[1]}</a><td>
+										<td><a href='${order5[0]}'>${order5[1]}</a><td>
 									</tr>
 								`;
 								let orderHtml = require("../../view/orders");

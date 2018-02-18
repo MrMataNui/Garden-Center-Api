@@ -13,9 +13,9 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 			}
 		);
 	}); */
-	if (name === "orders") {
+	/* if (name === "orders") {
 		require("./orders/order-router-id")(router, services, GET, req, res);
-	} else if (name === "products") {
+	} else */ if (name === "products") {
 		require("./products/product-router-id")(router, service, req, res);
 	} else {
 		router.get("/:_id", (req, res) => {

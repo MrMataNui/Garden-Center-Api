@@ -36,14 +36,40 @@ module.exports = (req, res, next) => {
 						// DEBUG(docs[i].inventory);
 					let date = FORMAT.toDate(docs[i].date);
 					let orderTotal = FORMAT.toDollar(docs[i].orderTotal);
+					let orderItems = [];
+					let orderNum = [];
+					for ( let j = 0; j < 5; j++ ) {
+							orderItems.push(
+								( docs[i].items[j] )
+									? `Item<br>#${docs[i].items[j].itemId}`
+									: 'N/A'
+							);
+							orderNum.push(
+								( docs[i].items[j] )
+									? `/products/${docs[i].items[j].itemId}`
+									: '/'
+							);
+						}
+						let user = [ `/users/${docs[i].userId}`, `User<br>#${docs[i].userId}` ];
+						let customer = [ `/customers/${docs[i].customerId}`, `Customer<br>#${docs[i].customerId}` ];
+						let order1 = [ orderNum[0], orderItems[0] ];
+						let order2 = [ orderNum[1], orderItems[1] ];
+						let order3 = [ orderNum[2], orderItems[2] ];
+						let order4 = [ orderNum[3], orderItems[3] ];
+						let order5 = [ orderNum[4], orderItems[4] ];
 						allTableRows += `
 							<tr>
 								<td>${docs[i]._id}<td>
-								<td>${docs[i].userId}<td>
-								<td>${docs[i].customerId}<td>
-								<td>${date}<td>
-								<td>${orderTotal}<td>
-							</tr>
+									<td><a href='${user[0]}'>${user[1]}</a><td>
+									<td><a href='${customer[0]}'>${customer[1]}</a><td>
+									<td>${date}<td>
+									<td>${orderTotal}<td>
+									<td><a href='${order1[0]}'>${order1[1]}</a><td>
+									<td><a href='${order2[0]}'>${order2[1]}</a><td>
+									<td><a href='${order3[0]}'>${order3[1]}</a><td>
+									<td><a href='${order4[0]}'>${order4[1]}</a><td>
+									<td><a href='${order5[0]}'>${order5[1]}</a><td>
+								</tr>
 						`;
 					}
 					let orderHtml = require("../../view/orders");
@@ -57,7 +83,7 @@ module.exports = (req, res, next) => {
 				res.status(500).json(docs);
 			});
 	});
-	require("../router-func")("orders", router, DEBUG, o_service, GET, services, req, res);
+	require("../router-func")("orders", router, DEBUG, o_service, req, res, GET/* , services */);
 	router.handle(req, res, next);
 };
 // require("../pageget")("orders", router, "/", ORDERS, GET);

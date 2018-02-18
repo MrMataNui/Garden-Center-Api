@@ -19,8 +19,8 @@ describe('CartSummary', function() {
 }); */
 
 const users = require("./domain/users/user-router");
-// const orders = require("./domain/orders/order-router");
-const orders = require("./domain/orders/order-router-test");
+const orders = require("./domain/orders/order-router");
+// const orders = require("./domain/orders/order-router-test");
 const products = require("./domain/products/product-router");
 const customers = require("./domain/customers/customer-router");
 // DEBUG(`${users}`);
