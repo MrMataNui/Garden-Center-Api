@@ -1,0 +1,62 @@
+[
+	{
+		"_id": "5a81e51569c5b3b3c8f6d74c",
+		"name": "Tyler Tolson",
+		"title": "Student",
+		"roles": [
+			"ADMIN", "USER"
+		],
+		"email": "ttolson@catalyte.io",
+		"password": "dVepYoP3"
+	},
+	{
+		"_id": "5a81e515bba46245822fe23e",
+		"name": "Jay Wojciechowski",
+		"title": "Student",
+		"roles": [
+			"ADMIN", "USER"
+		],
+		"email": "jwojciechowski@catalyte.io",
+		"password": "O6Lr6SK8M3"
+	},
+	{
+		"_id": "5a81e51567b0457d97c01700",
+		"name": "Dmytro Turchenko",
+		"title": "Student",
+		"roles": [
+			"ADMIN", "USER"
+		],
+		"email": "dturchenko@catalyte.io",
+		"password": "lzROjB"
+	},
+	{
+		"_id": "5a81e515e7e1601d0252b7e2",
+		"name": "David Trinkoff",
+		"title": "Student",
+		"roles": [
+			"ADMIN", "USER"
+		],
+		"email": "dtrinkoff@catalyte.io",
+		"password": "6TSDCKl"
+	},
+	{
+		"_id": "5a81e515eb55caa55625f795",
+		"name": "Robert Fuller",
+		"title": "Trainer's Assistant",
+		"roles": [
+			"ADMIN", "USER"
+		],
+		"email": "rfuller@catalyte.io",
+		"password": "jvDiQhFybwN"
+	},
+	{
+		"_id": "5a81e51543a92298fd996385",
+		"name": "Jeff Snyder",
+		"title": "Trainer",
+		"roles": [
+			"ADMIN", "USER"
+		],
+		"email": "jsnyder@catalyte.io",
+		"password": "t7K9rU4TsNTL"
+	}
+];

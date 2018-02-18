@@ -1,0 +1,7 @@
+cd ..
+docker run -d -p 27017:27017 --name gcdb tylertolson/gcdb
+docker build -t tylertolson/gcdb .
+docker rm gcdb
+docker stop gcdb
+cd src
+cd 'C:\Users\tyler\OneDrive\Projects\Catalyte\ttolson_garden_center_api'

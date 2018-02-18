@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		function dummy(i, callback) {
+			setTimeout(function() {
+				callback('dumb result')
+			}, 1000);
+		}
+		for (var i = 0; i < 10; i++) {
+			dummy(i, function(response) {
+				console.log("i = " + this.i + ", response = " + response);
+			}.bind( {i: i} ))
+		}
+	</script>
+</html>

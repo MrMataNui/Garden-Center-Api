@@ -1,0 +1,427 @@
+[
+	{
+		"_id": "1",
+		"sku": "1943995052",
+		"productType": "interdum mauris non ligula",
+		"name": "Scrubbie - Scotchbrite Hand Pad",
+		"description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+		"manufacturer": "Nam Tai Property Inc.",
+		"price": 48.24,
+		"inventory": [
+			{
+				"count": 9,
+				"location": "Store",
+				"aisle": "P",
+				"bin": 56
+			}
+		]
+	},
+	{
+		"_id": "2",
+		"sku": "4059488062",
+		"productType": "nec molestie",
+		"name": "Beer - Pilsner Urquell",
+		"description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+		"manufacturer": "Gamco Investors, Inc.",
+		"price": 57.4,
+		"inventory": [
+			{
+				"count": 55,
+				"location": "Warehouse",
+				"aisle": "L",
+				"bin": 66
+			}
+		]
+	},
+	{
+		"_id": "3",
+		"sku": "8203825893",
+		"productType": "eros",
+		"name": "Soho Lychee Liqueur",
+		"description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+		"manufacturer": "Dynegy Inc.",
+		"price": 11.18,
+		"inventory": [
+			{
+				"count": 46,
+				"location": "Store",
+				"aisle": "J",
+				"bin": 89
+			}
+		]
+	},
+	{
+		"_id": "4",
+		"sku": "4948921084",
+		"productType": "nisi vulputate",
+		"name": "Muffin Batt - Ban Dream Zero",
+		"description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+		"manufacturer": "U.S. Bancorp",
+		"price": 71.75,
+		"inventory": [
+			{
+				"count": 85,
+				"location": "Warehouse",
+				"aisle": "I",
+				"bin": 4
+			}
+		]
+	},
+	{
+		"_id": "5",
+		"sku": "2171741821",
+		"productType": "imperdiet sapien urna",
+		"name": "Mushrooms - Black, Dried",
+		"description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+		"manufacturer": "GTx, Inc.",
+		"price": 51.85,
+		"inventory": [
+			{
+				"count": 88,
+				"location": "Warehouse",
+				"aisle": "I",
+				"bin": 42
+			}
+		]
+	},
+	{
+		"_id": "6",
+		"sku": "1872511937",
+		"productType": "nullam",
+		"name": "Appetizer - Mushroom Tart",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+		"manufacturer": "First Trust Small Cap Core AlphaDEX Fund",
+		"price": 28.24,
+		"inventory": [
+			{
+				"count": 7,
+				"location": "Warehouse",
+				"aisle": "A",
+				"bin": 82
+			}
+		]
+	},
+	{
+		"_id": "7",
+		"sku": "8209852671",
+		"productType": "nonummy integer non",
+		"name": "Tequila - Sauza Silver",
+		"description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+		"manufacturer": "VelocityShares Daily Inverse VIX Medium-Term ETN",
+		"price": 50.95,
+		"inventory": [
+			{
+				"count": 40,
+				"location": "Store",
+				"aisle": "C",
+				"bin": 75
+			}
+		]
+	},
+	{
+		"_id": "8",
+		"sku": "2181305404",
+		"productType": "erat",
+		"name": "Beef - Ox Tail, Frozen",
+		"description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+		"manufacturer": "SolarEdge Technologies, Inc.",
+		"price": 59.74,
+		"inventory": [
+			{
+				"count": 50,
+				"location": "Store",
+				"aisle": "J",
+				"bin": 93
+			}
+		]
+	},
+	{
+		"_id": "9",
+		"sku": "0108484521",
+		"productType": "lorem",
+		"name": "Vinegar - Rice",
+		"description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
+		"manufacturer": "Capital Southwest Corporation",
+		"price": 60.3,
+		"inventory": [
+			{
+				"count": 46,
+				"location": "Store",
+				"aisle": "R",
+				"bin": 56
+			}
+		]
+	},
+	{
+		"_id": "10",
+		"sku": "7142589612",
+		"productType": "quisque ut erat curabitur",
+		"name": "Lettuce - Boston Bib",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+		"manufacturer": "Nuance Communications, Inc.",
+		"price": 8.22,
+		"inventory": [
+			{
+				"count": 17,
+				"location": "Warehouse",
+				"aisle": "E",
+				"bin": 3
+			}
+		]
+	},
+	{
+		"_id": "11",
+		"sku": "1141820315",
+		"productType": "curabitur at",
+		"name": "Brownies - Two Bite, Chocolate",
+		"description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+		"manufacturer": "Sensus Healthcare, Inc.",
+		"price": 94.91,
+		"inventory": [
+			{
+				"count": 80,
+				"location": "Store",
+				"aisle": "U",
+				"bin": 41
+			}
+		]
+	},
+	{
+		"_id": "12",
+		"sku": "2553042418",
+		"productType": "mauris enim",
+		"name": "Juice - V8 Splash",
+		"description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"manufacturer": "Hawkins, Inc.",
+		"price": 84.73,
+		"inventory": [
+			{
+				"count": 67,
+				"location": "Store",
+				"aisle": "U",
+				"bin": 17
+			}
+		]
+	},
+	{
+		"_id": "13",
+		"sku": "5460399173",
+		"productType": "nulla eget",
+		"name": "Pan Grease",
+		"description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+		"manufacturer": "First Foundation Inc.",
+		"price": 59.15,
+		"inventory": [
+			{
+				"count": 78,
+				"location": "Warehouse",
+				"aisle": "U",
+				"bin": 60
+			}
+		]
+	},
+	{
+		"_id": "14",
+		"sku": "1228296537",
+		"productType": "nulla quisque arcu libero rutrum",
+		"name": "Breadfruit",
+		"description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+		"manufacturer": "The Goodyear Tire & Rubber Company",
+		"price": 2.34,
+		"inventory": [
+			{
+				"count": 1,
+				"location": "Warehouse",
+				"aisle": "V",
+				"bin": 64
+			}
+		]
+	},
+	{
+		"_id": "15",
+		"sku": "1536900400",
+		"productType": "ultrices posuere cubilia curae nulla",
+		"name": "Versatainer Nc - 9388",
+		"description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+		"manufacturer": "Allegiance Bancshares, Inc.",
+		"price": 8.28,
+		"inventory": [
+			{
+				"count": 100,
+				"location": "Store",
+				"aisle": "U",
+				"bin": 20
+			}
+		]
+	},
+	{
+		"_id": "16",
+		"sku": "4646749912",
+		"productType": "tortor duis",
+		"name": "Bar Mix - Lime",
+		"description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+		"manufacturer": "IRSA Propiedades Comerciales S.A.",
+		"price": 56.88,
+		"inventory": [
+			{
+				"count": 69,
+				"location": "Store",
+				"aisle": "A",
+				"bin": 90
+			}
+		]
+	},
+	{
+		"_id": "17",
+		"sku": "9366044751",
+		"productType": "lorem",
+		"name": "Sauce - Chili",
+		"description": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+		"manufacturer": "AngioDynamics, Inc.",
+		"price": 41.54,
+		"inventory": [
+			{
+				"count": 87,
+				"location": "Store",
+				"aisle": "Y",
+				"bin": 63
+			}
+		]
+	},
+	{
+		"_id": "18",
+		"sku": "9369796541",
+		"productType": "et commodo vulputate",
+		"name": "Cheese - Cambozola",
+		"description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+		"manufacturer": "People&#39;s Utah Bancorp",
+		"price": 59.84,
+		"inventory": [
+			{
+				"count": 94,
+				"location": "Warehouse",
+				"aisle": "E",
+				"bin": 10
+			}
+		]
+	},
+	{
+		"_id": "19",
+		"sku": "3245517971",
+		"productType": "natoque",
+		"name": "Apple - Custard",
+		"description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+		"manufacturer": "Lifeway Foods, Inc.",
+		"price": 68.46,
+		"inventory": [
+			{
+				"count": 38,
+				"location": "Store",
+				"aisle": "N",
+				"bin": 64
+			}
+		]
+	},
+	{
+		"_id": "20",
+		"sku": "0541536311",
+		"productType": "pharetra magna ac",
+		"name": "Pastry - Banana Muffin - Mini",
+		"description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+		"manufacturer": "TriplePoint Venture Growth BDC Corp.",
+		"price": 3.64,
+		"inventory": [
+			{
+				"count": 78,
+				"location": "Warehouse",
+				"aisle": "W",
+				"bin": 96
+			}
+		]
+	},
+	{
+		"_id": "21",
+		"sku": "5508864652",
+		"productType": "ultrices libero",
+		"name": "Ecolab - Mikroklene 4/4 L",
+		"description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+		"manufacturer": "InfoSonics Corp",
+		"price": 24.54,
+		"inventory": [
+			{
+				"count": 23,
+				"location": "Store",
+				"aisle": "T",
+				"bin": 11
+			}
+		]
+	},
+	{
+		"_id": "22",
+		"sku": "8001522385",
+		"productType": "fusce congue diam",
+		"name": "Tomatoes - Vine Ripe, Red",
+		"description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+		"manufacturer": "Prudential Financial, Inc.",
+		"price": 22.17,
+		"inventory": [
+			{
+				"count": 29,
+				"location": "Warehouse",
+				"aisle": "X",
+				"bin": 83
+			}
+		]
+	},
+	{
+		"_id": "23",
+		"sku": "1903625319",
+		"productType": "sit amet justo morbi",
+		"name": "Chocolate - Milk Coating",
+		"description": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+		"manufacturer": "Avid Technology, Inc.",
+		"price": 36.11,
+		"inventory": [
+			{
+				"count": 12,
+				"location": "Store",
+				"aisle": "Z",
+				"bin": 88
+			}
+		]
+	},
+	{
+		"_id": "24",
+		"sku": "0161367542",
+		"productType": "purus",
+		"name": "Bagel - Plain",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+		"manufacturer": "Naked Brand Group Inc.",
+		"price": 97.45,
+		"inventory": [
+			{
+				"count": 81,
+				"location": "Store",
+				"aisle": "R",
+				"bin": 46
+			}
+		]
+	},
+	{
+		"_id": "25",
+		"sku": "3830289944",
+		"productType": "in",
+		"name": "Sour Puss Sour Apple",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+		"manufacturer": "Horizon Bancorp (IN)",
+		"price": 94.75,
+		"inventory": [
+			{
+				"count": 33,
+				"location": "Warehouse",
+				"aisle": "I",
+				"bin": 96
+			}
+		]
+	}
+]

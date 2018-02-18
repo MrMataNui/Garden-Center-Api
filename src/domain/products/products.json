@@ -1,0 +1,427 @@
+[
+	{
+		"_id": "5a81f9bb5458fa0c84d0645a",
+		"sku": 151846791351370486,
+		"productType": "Rake",
+		"name": "Hauck, Wiegand and Gusikowski",
+		"description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+		"manufacturer": "Kerluke-Fadel",
+		"price": 7.31,
+		"inventory": [
+			{
+				"count": 91,
+				"location": "Kasungu",
+				"aisle": "Z",
+				"bin": 50
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb461d8407520e3513",
+		"sku": 151846791388397188,
+		"productType": "Plant",
+		"name": "McLaughlin Group",
+		"description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+		"manufacturer": "Shields-Daugherty",
+		"price": 0.11,
+		"inventory": [
+			{
+				"count": 81,
+				"location": "Xia’ertai",
+				"aisle": "E",
+				"bin": 52
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbbc7c6d1dc79843e9",
+		"sku": 151846791329335149,
+		"productType": "Wagon",
+		"name": "Schuster-Rau",
+		"description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+		"manufacturer": "Parker and Sons",
+		"price": 6.15,
+		"inventory": [
+			{
+				"count": 78,
+				"location": "Santai",
+				"aisle": "G",
+				"bin": 46
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbf25ac0784de5e643",
+		"sku": 151846791394564883,
+		"productType": "Wagon",
+		"name": "Bins and Sons",
+		"description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+		"manufacturer": "Kuvalis-Kunze",
+		"price": 8.14,
+		"inventory": [
+			{
+				"count": 86,
+				"location": "Nobinobi",
+				"aisle": "J",
+				"bin": 42
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbe2025452fb556723",
+		"sku": 151846791359742544,
+		"productType": "Rake",
+		"name": "Auer, Dibbert and Ward",
+		"description": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+		"manufacturer": "Reichel-Mante",
+		"price": 4.84,
+		"inventory": [
+			{
+				"count": 23,
+				"location": "Larkana",
+				"aisle": "I",
+				"bin": 35
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bba000b4cc6323221b",
+		"sku": 151846791374990728,
+		"productType": "Rake",
+		"name": "Cole, Runolfsdottir and Murray",
+		"description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+		"manufacturer": "Conroy and Sons",
+		"price": 2.82,
+		"inventory": [
+			{
+				"count": 19,
+				"location": "Umingan",
+				"aisle": "R",
+				"bin": 67
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbbaac3022f22bff45",
+		"sku": 151846791384774174,
+		"productType": "Rake",
+		"name": "McClure, Kiehn and Lockman",
+		"description": "Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+		"manufacturer": "Hoppe, Rau and Altenwerth",
+		"price": 2.47,
+		"inventory": [
+			{
+				"count": 1,
+				"location": "Situsari",
+				"aisle": "R",
+				"bin": 17
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb2a1d817de8587c14",
+		"sku": 151846791314396566,
+		"productType": "Wagon",
+		"name": "Shanahan, Satterfield and Thiel",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+		"manufacturer": "Parisian-West",
+		"price": 9.66,
+		"inventory": [
+			{
+				"count": 15,
+				"location": "Trabki",
+				"aisle": "A",
+				"bin": 81
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbb3690320608be37f",
+		"sku": 151846791337937523,
+		"productType": "Wagon",
+		"name": "Rempel-Jaskolski",
+		"description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+		"manufacturer": "Schmidt-Klein",
+		"price": 4.36,
+		"inventory": [
+			{
+				"count": 93,
+				"location": "Shazhenxi",
+				"aisle": "W",
+				"bin": 27
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbad79b2c28d1f962a",
+		"sku": 151846791387038051,
+		"productType": "Plant",
+		"name": "Koepp, Treutel and Pollich",
+		"description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+		"manufacturer": "Gaylord, Koss and Schneider",
+		"price": 4.74,
+		"inventory": [
+			{
+				"count": 100,
+				"location": "Cruzeiro do Sul",
+				"aisle": "N",
+				"bin": 80
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb31c2e656df0a1cdd",
+		"sku": 151846791392634629,
+		"productType": "Rake",
+		"name": "Kohler and Sons",
+		"description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+		"manufacturer": "Abshire-Hahn",
+		"price": 2.93,
+		"inventory": [
+			{
+				"count": 40,
+				"location": "Rancakuya",
+				"aisle": "V",
+				"bin": 67
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb596d4dcf61118e3a",
+		"sku": 151846791332916910,
+		"productType": "Plant",
+		"name": "Franecki, Buckridge and Pollich",
+		"description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
+		"manufacturer": "Grant LLC",
+		"price": 0.60,
+		"inventory": [
+			{
+				"count": 79,
+				"location": "Yongqin",
+				"aisle": "Z",
+				"bin": 19
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb0473c3a2bb9ecf45",
+		"sku": 151846791332916910,
+		"productType": "Gloves",
+		"name": "Lang, Shanahan and Crona",
+		"description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+		"manufacturer": "Mosciski, Cole and Toy",
+		"price": 7.36,
+		"inventory": [
+			{
+				"count": 66,
+				"location": "Kolondieba",
+				"aisle": "I",
+				"bin": 36
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb2c6b9012343972d2",
+		"sku": 151846791311419535,
+		"productType": "Gloves",
+		"name": "Hirthe, Nienow and Robel",
+		"description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+		"manufacturer": "Oberbrunner Group",
+		"price": 3.16,
+		"inventory": [
+			{
+				"count": 5,
+				"location": "Zbaszynek",
+				"aisle": "V",
+				"bin": 49
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb5ff7123ca4678d8a",
+		"sku": 151846791371875234,
+		"productType": "Plant",
+		"name": "Larkin, Mertz and Sauer",
+		"description": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+		"manufacturer": "Abshire Group",
+		"price": 3.01,
+		"inventory": [
+			{
+				"count": 37,
+				"location": "Thi Tran Phong Tho",
+				"aisle": "H",
+				"bin": 38
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb5ff7123ca4678d8b",
+		"sku": 151846791342442176,
+		"productType": "Wagon",
+		"name": "Runolfsdottir-Harber",
+		"description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+		"manufacturer": "Zieme and Sons",
+		"price": 2.22,
+		"inventory": [
+			{
+				"count": 29,
+				"location": "Kurayyimah",
+				"aisle": "M",
+				"bin": 83
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb8534b3a53d399272",
+		"sku": 151846791350520217,
+		"productType": "Wagon",
+		"name": "Erdman-Krajcik",
+		"description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+		"manufacturer": "Blick LLC",
+		"price": 1.18,
+		"inventory": [
+			{
+				"count": 43,
+				"location": "Cosmopolis",
+				"aisle": "Z",
+				"bin": 65
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb811253bb2640e370",
+		"sku": 151846791323467602,
+		"productType": "Plant",
+		"name": "Hansen-Schuppe",
+		"description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+		"manufacturer": "Rosenbaum Inc",
+		"price": 7.63,
+		"inventory": [
+			{
+				"count": 6,
+				"location": "Amiens",
+				"aisle": "I",
+				"bin": 18
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb04f8c4bf9604d894",
+		"sku": 151846791319789570,
+		"productType": "Rake",
+		"name": "Wilkinson-Padberg",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
+		"manufacturer": "Fadel, Kihn and Marquardt",
+		"price": 6.77,
+		"inventory": [
+			{
+				"count": 25,
+				"location": "Roma",
+				"aisle": "D",
+				"bin": 48
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb55a08c13b942a1c3",
+		"sku": 151846791332443563,
+		"productType": "Gloves",
+		"name": "Sauer-Hilll",
+		"description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+		"manufacturer": "Hudson Inc",
+		"price": 1.54,
+		"inventory": [
+			{
+				"count": 97,
+				"location": "Sangali",
+				"aisle": "J",
+				"bin": 59
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb051304ace71c7d5b",
+		"sku": 151846791368378019,
+		"productType": "Wagon",
+		"name": "Gutkowski Group",
+		"description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+		"manufacturer": "Okuneva LLC",
+		"price": 7.64,
+		"inventory": [
+			{
+				"count": 72,
+				"location": "Drogomysl",
+				"aisle": "O",
+				"bin": 17
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb13f964874303685a",
+		"sku": 151846791398589647,
+		"productType": "Wagon",
+		"name": "Dietrich, Abernathy and Mayer",
+		"description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+		"manufacturer": "Schmidt-Kertzmann",
+		"price": 0.31,
+		"inventory": [
+			{
+				"count": 12,
+				"location": "Buzet",
+				"aisle": "J",
+				"bin": 88
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb23bd36784fbf1691",
+		"sku": 151846791322326571,
+		"productType": "Gloves",
+		"name": "Ferry Group",
+		"description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+		"manufacturer": "Kozey Group",
+		"price": 6.69,
+		"inventory": [
+			{
+				"count": 24,
+				"location": "Fengjiang",
+				"aisle": "X",
+				"bin": 37
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bbd5bb2cde601dc69b",
+		"sku": 151846791322326571,
+		"productType": "Gloves",
+		"name": "Cormier LLC",
+		"description": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+		"manufacturer": "Blanda, Crist and Champlin",
+		"price": 2.53,
+		"inventory": [
+			{
+				"count": 51,
+				"location": "Salavat",
+				"aisle": "Y",
+				"bin": 8
+			}
+		]
+	},
+	{
+		"_id": "5a81f9bb0f964e63b1472ca1",
+		"sku": 151846791365340420,
+		"productType": "Gloves",
+		"name": "Lang Inc",
+		"description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+		"manufacturer": "Shields-Pacocha",
+		"price": 5.77,
+		"inventory": [
+			{
+				"count": 46,
+				"location": "Wenquan",
+				"aisle": "V",
+				"bin": 40
+			}
+		]
+	}
+];

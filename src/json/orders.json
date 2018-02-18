@@ -1,0 +1,131 @@
+[
+	{
+		"_id": "1",
+		"userId": "6",
+		"customerId": "1",
+		"date": "2017-02-15T12:29:45Z",
+		"orderTotal": 93.02,
+		"items": [
+			{
+				"itemId": "18",
+				"qty": 38,
+				"itemPrice": 99,
+				"itemTotal": 89
+			},
+			{
+				"itemId": "20",
+				"qty": 70,
+				"itemPrice": 71,
+				"itemTotal": 73
+			},
+			{
+				"itemId": "15",
+				"qty": 10,
+				"itemPrice": 33,
+				"itemTotal": 88
+			}
+		]
+	},
+	{
+		"_id": "2",
+		"userId": "4",
+		"customerId": "7",
+		"date": "2017-03-05T13:00:31Z",
+		"orderTotal": 42.39,
+		"items": [
+			{
+				"itemId": "19",
+				"qty": 55,
+				"itemPrice": 98,
+				"itemTotal": 21
+			}
+		]
+	},
+	{
+		"_id": "3",
+		"userId": "3",
+		"customerId": "9",
+		"date": "2017-06-14T17:26:43Z",
+		"orderTotal": 60.8,
+		"items": [
+			{
+				"itemId": "5",
+				"qty": 1,
+				"itemPrice": 49,
+				"itemTotal": 17
+			},
+			{
+				"itemId": "24",
+				"qty": 88,
+				"itemPrice": 82,
+				"itemTotal": 45
+			}
+		]
+	},
+	{
+		"_id": "4",
+		"userId": "4",
+		"customerId": "19",
+		"date": "2017-10-16T14:05:34Z",
+		"orderTotal": 42.81,
+		"items": [
+			{
+				"itemId": "21",
+				"qty": 96,
+				"itemPrice": 93,
+				"itemTotal": 20
+			},
+			{
+				"itemId": "11",
+				"qty": 42,
+				"itemPrice": 4,
+				"itemTotal": 36
+			},
+			{
+				"itemId": "13",
+				"qty": 57,
+				"itemPrice": 28,
+				"itemTotal": 45
+			}
+		]
+	},
+	{
+		"_id": "5",
+		"userId": "4",
+		"customerId": "24",
+		"date": "2017-06-26T20:41:28Z",
+		"orderTotal": 54.47,
+		"items": [
+			{
+				"itemId": "8",
+				"qty": 44,
+				"itemPrice": 95,
+				"itemTotal": 52
+			},
+			{
+				"itemId": "24",
+				"qty": 9,
+				"itemPrice": 12,
+				"itemTotal": 72
+			},
+			{
+				"itemId": "25",
+				"qty": 66,
+				"itemPrice": 40,
+				"itemTotal": 23
+			},
+			{
+				"itemId": "25",
+				"qty": 46,
+				"itemPrice": 44,
+				"itemTotal": 58
+			},
+			{
+				"itemId": "10",
+				"qty": 23,
+				"itemPrice": 75,
+				"itemTotal": 15
+			}
+		]
+	}
+]

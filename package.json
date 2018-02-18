@@ -1,0 +1,51 @@
+{
+  "name": "ttolson_garden_center_api",
+  "version": "1.0.0",
+  "description": "Tyler Tolson's Garden Center Api",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@git.catalystitservices.com:CatalystTraining/intro_node_server.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "NPM",
+    "ESLINT"
+  ],
+  "author": "Tyler Tolson",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "codestyle": "eslint src/** test/**",
+    "codefix": "eslint --fix src/** test/**",
+    "debug": "set DEBUG=* && npm start",
+    "debug-gcapi": "set DEBUG=gcapi* & npm start",
+    "coverage": "nyc npm test",
+    "unit-coverage": "nyc npm run unit",
+    "unit": "mocha --recursive test/unit",
+    "test-watch": "npm test watch",
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "bignumber.js": "4.0.0",
+    "body-parser": "1.16.0",
+    "express": "4.14.1",
+    "express-authorization": "1.0.0",
+    "moment": "2.17.1",
+    "mongodb": "2.2.24",
+    "utf8": "3.0.0"
+  },
+  "devDependencies": {
+    "debug": "3.1.0",
+    "ajv": "6.1.1",
+    "chai": "3.5.0",
+    "istanbul": "0.4.0",
+    "eslint": "4.17.0",
+    "logger": "0.0.1",
+    "mocha": "3.2.0",
+    "mongoose": "5.0.5",
+    "nodemon": "1.11.0",
+    "nyc": "10.1.2",
+    "sinon": "4.3.0"
+  }
+}

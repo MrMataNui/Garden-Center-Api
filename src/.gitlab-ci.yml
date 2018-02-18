@@ -1,0 +1,27 @@
+before_script:
+  - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASS
+stages:
+  - build
+  - clean
+build_image:
+  stage: build
+  script:
+    - docker build -t $DOCKERHUB_USER/$DOCKERHUB_REPO:latest .
+    - docker push $DOCKERHUB_USER/$DOCKERHUB_REPO
+  tags:
+    - docker
+    - aws
+  only:
+    - master
+# Kills all runnning containers, Deletes all running containers, and Deletes all
+# images.
+cleanup:
+  stage: clean
+  script:
+    - docker image prune -f
+  tags:
+    - docker
+    - aws
+  only:
+    - master
+  allow_failure: true
