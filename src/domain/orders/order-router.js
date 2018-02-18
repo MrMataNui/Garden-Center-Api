@@ -50,8 +50,10 @@ module.exports = (req, res, next) => {
 									: '/'
 							);
 						}
-						let user = [ `/users/${docs[i].userId}`, `User<br>#${docs[i].userId}` ];
-						let customer = [ `/customers/${docs[i].customerId}`, `Customer<br>#${docs[i].customerId}` ];
+						let userNum = docs[i].userId;
+						let customerNum = docs[i].customerId;
+						let user = [ `/users/${userNum}`, `User<br>#${userNum}` ];
+						let customer = [ `/customers/${customerNum}`, `Customer<br>#${customerNum}` ];
 						let order1 = [ orderNum[0], orderItems[0] ];
 						let order2 = [ orderNum[1], orderItems[1] ];
 						let order3 = [ orderNum[2], orderItems[2] ];
