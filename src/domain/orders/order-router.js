@@ -41,7 +41,7 @@ module.exports = (req, res, next) => {
 					for ( let j = 0; j < 5; j++ ) {
 							orderItems.push(
 								( docs[i].items[j] )
-									? `Item<br>#${docs[i].items[j].itemId}`
+									? `Item #${docs[i].items[j].itemId}`
 									: 'N/A'
 							);
 							orderNum.push(
@@ -52,8 +52,8 @@ module.exports = (req, res, next) => {
 						}
 						let userNum = docs[i].userId;
 						let customerNum = docs[i].customerId;
-						let user = [ `/users/${userNum}`, `User<br>#${userNum}` ];
-						let customer = [ `/customers/${customerNum}`, `Customer<br>#${customerNum}` ];
+						let user = [ `/users/${userNum}`, `User #${userNum}` ];
+						let customer = [ `/customers/${customerNum}`, `Customer #${customerNum}` ];
 						let order1 = [ orderNum[0], orderItems[0] ];
 						let order2 = [ orderNum[1], orderItems[1] ];
 						let order3 = [ orderNum[2], orderItems[2] ];

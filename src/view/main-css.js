@@ -57,4 +57,8 @@ table {
 td {
 	border: 1px solid black;
 }
+td:nth-of-type(odd):not( :nth-of-type(1) )/* :not( :nth-of-type(3) ) */
+{
+	width: 10em;
+}
 `;

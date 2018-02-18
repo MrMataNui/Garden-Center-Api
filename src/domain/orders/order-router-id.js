@@ -32,7 +32,7 @@ module.exports = (router, services, GET, req, res) => {
 								for ( let i = 0; i < 5; i++ ) {
 									orderItems.push(
 										( o_docs[0].items[i] )
-											? `Item<br>#${o_docs[0].items[i].itemId}`
+											? `Item #${o_docs[0].items[i].itemId}`
 											: 'N/A'
 									);
 									orderNum.push(
