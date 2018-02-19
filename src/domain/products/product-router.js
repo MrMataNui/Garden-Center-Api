@@ -1,5 +1,6 @@
 "use strict";
 const DEBUG = require("debug")("gcapi:product:router");
+const FORMAT = require("../../classes/format");
 const EXPRESS = require("express");
 const router = EXPRESS.Router();
 const PRODUCT_SERVICE = require("./product-service");
@@ -17,15 +18,17 @@ module.exports = (req, res, next) => {
 				let allTableRows = ``;
 				for (let i in docs) {
 					// DEBUG(docs[i].inventory);
+					let price = FORMAT.toDollar(docs[i].price);
+					let productType = FORMAT.toSentance(docs[i].productType);
 					allTableRows += `
 						<tr>
 							<td>${docs[i].id}<td>
 							<td>${docs[i].sku}<td>
 							<td>${docs[i].name}<td>
-							<td>${docs[i].productType}<td>
+							<td>${productType}<td>
 							<td>${docs[i].description}<td>
 							<td>${docs[i].manufacturer}<td>
-							<td>${docs[i].price}<td>
+							<td>${price}<td>
 							<td>${docs[i].inventory[0].count}<td>
 							<td>${docs[i].inventory[0].location}<td>
 							<td>${docs[i].inventory[0].aisle}<td>

@@ -8,6 +8,9 @@ module.exports = class Format {
 	static toNum(num) {
 		return new BIG_NUM(num).toNumber().toFixed(2);
 	}
+	static toSentance(words) {
+		return `${words.slice(0,1).toUpperCase()}${words.slice(1)}.`;
+	}
 	static toDate(num) {
 		let get = {
 			date: num,

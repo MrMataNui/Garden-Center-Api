@@ -134,7 +134,7 @@ function insertDocuments (db, collection, docs, callback) {
 		ASSERT.equal(null, err);
 		ASSERT.equal(docs.length, result.result.n);
 		ASSERT.equal(docs.length, result.ops.length);
-		DEBUG(`Inserted ${result.result.n} documents into '${collection}'`);
+		DEBUG(`Inserted ${result.result.n} ${(result.result.n==1) ? 'document' : 'documents'} into '${collection}'`);
 		callback(result);
 	});
 }
@@ -149,10 +149,10 @@ function insertDocuments (db, collection, docs, callback) {
  */
 function updateDocument (db, collection, doc, callback) {
 	let coll = db.collection(collection);
-	let filter = { _id: doc._id };
+	let filter = { id: doc.id };
 	coll.replaceOne(filter, doc, (err, result) => {
 		ASSERT.equal(null, err);
-		DEBUG(`Updated ${result.result.n} documents in '${collection}'`);
+		DEBUG(`Updated ${result.result.n} ${(result.result.n==1) ? 'document' : 'documents'} in '${collection}'`);
 		callback(result);
 	});
 }
@@ -169,7 +169,7 @@ function deleteDocument (db, collection, id, callback) {
 	let coll = db.collection(collection);
 	coll.deleteOne({ _id: id }, (err, result) => {
 		ASSERT.equal(null, err);
-		DEBUG(`Deleted ${result.result.n} documents from '${collection}'`);
+		DEBUG(`Deleted ${result.result.n} ${(result.result.n==1) ? 'document' : 'documents'} from '${collection}'`);
 		callback(result);
 	});
 }

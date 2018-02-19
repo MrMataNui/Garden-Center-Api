@@ -87,7 +87,7 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 					if (docs.length === 0) {
 						res.sendStatus(204);
 					} else {
-						res.json(docs);
+						res.end(`success`);
 					}
 				}, (err) => {
 					res.status(500).json(docs);

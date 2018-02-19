@@ -42,7 +42,7 @@ h1
 	, h3
 	, tr:nth-of-type(1) td
 	, tr:not( :nth-of-type(1) )
-		td:nth-of-type(1)
+		td:nth-of-type(-n+8)
 {
 	text-align: center;
 }
