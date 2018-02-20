@@ -37,13 +37,7 @@ h1 {
 	margin: 0;
 	border-radius: 5px 5px 0 0;
 }
-h1
-	, h2
-	, h3
-	, tr:nth-of-type(1) td
-	, tr:not( :nth-of-type(1) )
-		td:nth-of-type(-n+8)
-{
+h1, h2, h3, tr td {
 	text-align: center;
 }
 a:link {
@@ -52,12 +46,17 @@ a:link {
 table {
 	border: 1px solid black;
 	border-radius: 10px;
+	width: 85%;
+	/* float: right; */
 }
 td {
 	border: 1px solid black;
 }
-td:nth-of-type(odd):not( :nth-of-type(1) )
-{
-	width: 10em;
+td:nth-of-type(even) {
+	width: 0em;
+}
+tr:nth-of-type(1) {
+	background-color: yellow;
+	font-weight: bold;
 }
 `;

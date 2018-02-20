@@ -7,10 +7,15 @@ const tableHeader = [`
 		<td>Date<td>
 		<td>Order total<td>
 		<td>Item 1<td>
+		<td>Item 1 Amount<td>
 		<td>Item 2<td>
+		<td>Item 2 Amount<td>
 		<td>Item 3<td>
+		<td>Item 3 Amount<td>
 		<td>Item 4<td>
+		<td>Item 4 Amount<td>
 		<td>Item 5<td>
+		<td>Item 5 Amount<td>
 	</tr>
 `];
 module.exports =   [`

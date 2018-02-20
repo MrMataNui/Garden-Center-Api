@@ -36,42 +36,47 @@ module.exports = (req, res, next) => {
 					for (let i in docs) {
 						// DEBUG(docs[i].inventory);
 					let date = FORMAT.toDate(docs[i].date);
-					let orderTotal = FORMAT.toDollar(docs[i].orderTotal);
+					// let orderTotal = FORMAT.toDollar(docs[i].orderTotal);
 					let orderItems = [];
 					let orderNum = [];
 					for ( let j = 0; j < 5; j++ ) {
 							orderItems.push(
 								( docs[i].items[j] )
-									? `Item #${docs[i].items[j].itemId}`
-									: 'N/A'
+									? `${docs[i].items[j].itemId}`
+									: '--'
 							);
 							orderNum.push(
 								( docs[i].items[j] )
-									? `/products/${docs[i].items[j].itemId}`
-									: '/'
+									? `${docs[i].items[j].qty}`
+									: '--'
 							);
 						}
-						let userNum = docs[i].userId;
-						let customerNum = docs[i].customerId;
-						let user = [ `/users/${userNum}`, `User #${userNum}` ];
-						let customer = [ `/customers/${customerNum}`, `Customer #${customerNum}` ];
-						let order1 = [ orderNum[0], orderItems[0] ];
-						let order2 = [ orderNum[1], orderItems[1] ];
-						let order3 = [ orderNum[2], orderItems[2] ];
-						let order4 = [ orderNum[3], orderItems[3] ];
-						let order5 = [ orderNum[4], orderItems[4] ];
+						let order1 = [ orderItems[0], orderNum[0] ];
+						let order2 = [ orderItems[1], orderNum[1] ];
+						let order3 = [ orderItems[2], orderNum[2] ];
+						let order4 = [ orderItems[3], orderNum[3] ];
+						let order5 = [ orderItems[4], orderNum[4] ];
 						allTableRows += `
 							<tr>
 								<td>${docs[i].id}<td>
-									<td><a href='${user[0]}'>${user[1]}</a><td>
-									<td><a href='${customer[0]}'>${customer[1]}</a><td>
-									<td>${date}<td>
-									<td>${orderTotal}<td>
-									<td><a href='${order1[0]}'>${order1[1]}</a><td>
-									<td><a href='${order2[0]}'>${order2[1]}</a><td>
-									<td><a href='${order3[0]}'>${order3[1]}</a><td>
-									<td><a href='${order4[0]}'>${order4[1]}</a><td>
-									<td><a href='${order5[0]}'>${order5[1]}</a><td>
+									<td>${docs[i].userId}<td>
+									<td>${docs[i].customerId}<td>
+									<td>${docs[i].date}<td>
+									<td>${docs[i].orderTotal}<td>
+									<td>${order1[0]}<td>
+									<td>${order1[1]}<td>
+									
+									<td>${order2[0]}<td>
+									<td>${order2[1]}<td>
+									
+									<td>${order3[0]}<td>
+									<td>${order3[1]}<td>
+									
+									<td>${order4[0]}<td>
+									<td>${order4[1]}<td>
+									
+									<td>${order5[0]}<td>
+									<td>${order5[1]}<td>
 								</tr>
 						`;
 					}

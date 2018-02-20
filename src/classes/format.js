@@ -6,7 +6,7 @@ module.exports = class Format {
 		return "$"+new BIG_NUM(num).toFormat(2);
 	}
 	static toNum(num) {
-		return new BIG_NUM(num).toNumber().toFixed(2);
+		return parseFloat(num).toFixed(2);
 	}
 	static toSentance(words) {
 		return `${words.slice(0,1).toUpperCase()}${words.slice(1)}.`;

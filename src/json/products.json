@@ -1,6 +1,6 @@
 [
 	{
-		"id": "1",
+		"id": "01",
 		"sku": "1943995052",
 		"productType": "interdum mauris non ligula",
 		"name": "Scrubbie - Scotchbrite Hand Pad",
@@ -17,7 +17,7 @@
 		]
 	},
 	{
-		"id": "2",
+		"id": "02",
 		"sku": "4059488062",
 		"productType": "nec molestie",
 		"name": "Beer - Pilsner Urquell",
@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"id": "3",
+		"id": "03",
 		"sku": "8203825893",
 		"productType": "eros",
 		"name": "Soho Lychee Liqueur",
@@ -51,7 +51,7 @@
 		]
 	},
 	{
-		"id": "4",
+		"id": "04",
 		"sku": "4948921084",
 		"productType": "nisi vulputate",
 		"name": "Muffin Batt - Ban Dream Zero",
@@ -68,7 +68,7 @@
 		]
 	},
 	{
-		"id": "5",
+		"id": "05",
 		"sku": "2171741821",
 		"productType": "imperdiet sapien urna",
 		"name": "Mushrooms - Black, Dried",
@@ -85,7 +85,7 @@
 		]
 	},
 	{
-		"id": "6",
+		"id": "06",
 		"sku": "1872511937",
 		"productType": "nullam",
 		"name": "Appetizer - Mushroom Tart",
@@ -102,7 +102,7 @@
 		]
 	},
 	{
-		"id": "7",
+		"id": "07",
 		"sku": "8209852671",
 		"productType": "nonummy integer non",
 		"name": "Tequila - Sauza Silver",
@@ -119,7 +119,7 @@
 		]
 	},
 	{
-		"id": "8",
+		"id": "08",
 		"sku": "2181305404",
 		"productType": "erat",
 		"name": "Beef - Ox Tail, Frozen",
@@ -136,7 +136,7 @@
 		]
 	},
 	{
-		"id": "9",
+		"id": "09",
 		"sku": "0108484521",
 		"productType": "lorem",
 		"name": "Vinegar - Rice",

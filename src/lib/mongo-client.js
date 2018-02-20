@@ -113,7 +113,7 @@ module.exports = class Mongo {
  */
 function query (db, collection, filter, callback) {
 	let coll = db.collection(collection);
-	coll.find(filter).toArray((err, docs) => {
+	coll.find(filter).sort({id: 1}).toArray((err, docs) => {
 		ASSERT.equal(null, err);
 		DEBUG(`Found ${docs.length} in '${collection}' with filter ${JSON.stringify(filter)}`);
 		callback(docs);

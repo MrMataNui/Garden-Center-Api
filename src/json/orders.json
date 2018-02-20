@@ -1,144 +1,130 @@
 [
 	{
-		"id": "1",
-		"userId": "6",
-		"customerId": "1",
+		"id": "01",
+		"userId": "06",
+		"customerId": "01",
 		"date": "2017-02-15T12:29:45Z",
-		"orderTotal": 93.02,
+		"orderTotal": 0,
 		"items": [
 			{
 				"itemId": "18",
-				"qty": 38,
-				"itemPrice": 99,
-				"itemTotal": 89,
-				"orderTotal": 0
+				"qty": 12,
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "20",
-				"qty": 70,
-				"itemPrice": 71,
-				"itemTotal": 73,
-				"orderTotal": 0
+				"qty": 25,
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "15",
 				"qty": 10,
-				"itemPrice": 33,
-				"itemTotal": 88,
-				"orderTotal": 0
+				"itemPrice": 0,
+				"itemTotal": 0
 			}
 		]
 	},
 	{
-		"id": "2",
-		"userId": "4",
-		"customerId": "7",
+		"id": "02",
+		"userId": "04",
+		"customerId": "07",
 		"date": "2017-03-05T13:00:31Z",
-		"orderTotal": 42.39,
+		"orderTotal": 0,
 		"items": [
 			{
 				"itemId": "19",
-				"qty": 55,
-				"itemPrice": 98,
-				"itemTotal": 21,
-				"orderTotal": 0
+				"qty": 23,
+				"itemPrice": 0,
+				"itemTotal": 0
 			}
 		]
 	},
 	{
-		"id": "3",
-		"userId": "3",
-		"customerId": "9",
+		"id": "03",
+		"userId": "03",
+		"customerId": "09",
 		"date": "2017-06-14T17:26:43Z",
-		"orderTotal": 60.8,
+		"orderTotal": 0,
 		"items": [
 			{
-				"itemId": "5",
+				"itemId": "05",
 				"qty": 1,
-				"itemPrice": 49,
-				"itemTotal": 17,
-				"orderTotal": 0
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "24",
-				"qty": 88,
-				"itemPrice": 82,
-				"itemTotal": 45,
-				"orderTotal": 0
+				"qty": 12,
+				"itemPrice": 0,
+				"itemTotal": 0
 			}
 		]
 	},
 	{
-		"id": "4",
-		"userId": "4",
+		"id": "04",
+		"userId": "04",
 		"customerId": "19",
 		"date": "2017-10-16T14:05:34Z",
-		"orderTotal": 42.81,
+		"orderTotal": 0,
 		"items": [
 			{
 				"itemId": "21",
-				"qty": 96,
-				"itemPrice": 93,
-				"itemTotal": 20,
-				"orderTotal": 0
+				"qty": 13,
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "11",
-				"qty": 42,
-				"itemPrice": 4,
-				"itemTotal": 36,
-				"orderTotal": 0
+				"qty": 37,
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "13",
-				"qty": 57,
-				"itemPrice": 28,
-				"itemTotal": 45,
-				"orderTotal": 0
+				"qty": 18,
+				"itemPrice": 0,
+				"itemTotal": 0
 			}
 		]
 	},
 	{
-		"id": "5",
-		"userId": "4",
+		"id": "05",
+		"userId": "04",
 		"customerId": "24",
 		"date": "2017-06-26T20:41:28Z",
-		"orderTotal": 54.47,
+		"orderTotal": 0,
 		"items": [
 			{
-				"itemId": "8",
+				"itemId": "08",
 				"qty": 44,
-				"itemPrice": 95,
-				"itemTotal": 52,
-				"orderTotal": 0
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "24",
 				"qty": 9,
-				"itemPrice": 12,
-				"itemTotal": 72,
-				"orderTotal": 0
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "25",
-				"qty": 66,
-				"itemPrice": 40,
-				"itemTotal": 23,
-				"orderTotal": 0
+				"qty": 29,
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "25",
 				"qty": 46,
-				"itemPrice": 44,
-				"itemTotal": 58,
-				"orderTotal": 0
+				"itemPrice": 0,
+				"itemTotal": 0
 			},
 			{
 				"itemId": "10",
 				"qty": 23,
-				"itemPrice": 75,
-				"itemTotal": 15,
-				"orderTotal": 0
+				"itemPrice": 0,
+				"itemTotal": 0
 			}
 		]
 	}
