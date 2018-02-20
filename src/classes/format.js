@@ -15,7 +15,7 @@ module.exports = class Format {
 		let get = {
 			date: num,
 			oldFormat: "YYYY-MM-DDTHH:mm:ss:SSSZ",
-			newFormat: "MMMM Do, YYYY<br>HH:mm:ss",
+			newFormat: "MMMM Do, YYYY HH:mm:ss",
 		};
 		return MOMENT(get.date, get.oldFormat)
 			.format(get.newFormat);
