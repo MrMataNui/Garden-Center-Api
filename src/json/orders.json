@@ -10,19 +10,22 @@
 				"itemId": "18",
 				"qty": 38,
 				"itemPrice": 99,
-				"itemTotal": 89
+				"itemTotal": 89,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "20",
 				"qty": 70,
 				"itemPrice": 71,
-				"itemTotal": 73
+				"itemTotal": 73,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "15",
 				"qty": 10,
 				"itemPrice": 33,
-				"itemTotal": 88
+				"itemTotal": 88,
+				"orderTotal": 0
 			}
 		]
 	},
@@ -37,7 +40,8 @@
 				"itemId": "19",
 				"qty": 55,
 				"itemPrice": 98,
-				"itemTotal": 21
+				"itemTotal": 21,
+				"orderTotal": 0
 			}
 		]
 	},
@@ -52,13 +56,15 @@
 				"itemId": "5",
 				"qty": 1,
 				"itemPrice": 49,
-				"itemTotal": 17
+				"itemTotal": 17,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "24",
 				"qty": 88,
 				"itemPrice": 82,
-				"itemTotal": 45
+				"itemTotal": 45,
+				"orderTotal": 0
 			}
 		]
 	},
@@ -73,19 +79,22 @@
 				"itemId": "21",
 				"qty": 96,
 				"itemPrice": 93,
-				"itemTotal": 20
+				"itemTotal": 20,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "11",
 				"qty": 42,
 				"itemPrice": 4,
-				"itemTotal": 36
+				"itemTotal": 36,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "13",
 				"qty": 57,
 				"itemPrice": 28,
-				"itemTotal": 45
+				"itemTotal": 45,
+				"orderTotal": 0
 			}
 		]
 	},
@@ -100,32 +109,37 @@
 				"itemId": "8",
 				"qty": 44,
 				"itemPrice": 95,
-				"itemTotal": 52
+				"itemTotal": 52,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "24",
 				"qty": 9,
 				"itemPrice": 12,
-				"itemTotal": 72
+				"itemTotal": 72,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "25",
 				"qty": 66,
 				"itemPrice": 40,
-				"itemTotal": 23
+				"itemTotal": 23,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "25",
 				"qty": 46,
 				"itemPrice": 44,
-				"itemTotal": 58
+				"itemTotal": 58,
+				"orderTotal": 0
 			},
 			{
 				"itemId": "10",
 				"qty": 23,
 				"itemPrice": 75,
-				"itemTotal": 15
+				"itemTotal": 15,
+				"orderTotal": 0
 			}
 		]
 	}
-];
+]

@@ -6,9 +6,12 @@ module.exports = (FORMAT, MOMENT, orders, tables, totals) => {
 	for (let i in item) {
 		item[i].orderTotal = 0;
 		for (let j in tables.products) {
-			if (item[i].itemId===tables.products[j]._id) {
+			if (item[i].itemId===tables.products[j].id) {
 				item[i].itemPrice = FORMAT.toNum(tables.products[j].price);
 				item[i].orderTotal = FORMAT.toNum(item[i].itemPrice*item[i].qty);
+				DEBUG("itemPrice"+item[i].itemPrice);
+				DEBUG("qty"+item[i].qty);
+				// DEBUG(item[i].orderTotal);
 				item[i].itemId = tables.products[j].name;
 				tables.products[j].inventory.count -= item[i].qty;
 			}
@@ -25,12 +28,8 @@ module.exports = (FORMAT, MOMENT, orders, tables, totals) => {
 			orders.customer = tables.customers[i].name;
 		}
 	}
-	let get = {
-		date: orders.date,
-		oldFormat: "M-DD-YYYYTHH:mm:ss:SSSZ",
-		newFormat: "dddd, YYYY MMMM Do, hh:mm:ss a",
-	};
-	orders.date = MOMENT(get.date, get.oldFormat)
-		.format(get.newFormat);
-	return orderTotal;
+	orders.date = FORMAT.toDate(orders.date);
+	orders.orderTotal = orderTotal;
+	DEBUG(orderTotal);
+	DEBUG(orders.orderTotal);
 };

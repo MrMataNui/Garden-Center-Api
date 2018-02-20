@@ -3,6 +3,8 @@ const DEBUG = require("debug")("gcapi:server");
 const parser = require("body-parser");
 const express = require("express");
 const authorization = require('express-authorization');
+const FORMAT = require("./classes/format");
+const MOMENT = require("moment");
 const app = express();
 app.use(parser.json());
 app.use(parser.urlencoded({ extended : true }));
@@ -17,12 +19,13 @@ describe('CartSummary', function() {
 		expect(cartSummary.getSubtotal()).to.equal(0);
 	});
 }); */
-
 const users = require("./domain/users/user-router");
 const orders = require("./domain/orders/order-router");
 // const orders = require("./domain/orders/order-router-test");
 const products = require("./domain/products/product-router");
 const customers = require("./domain/customers/customer-router");
+// const pastOrders = require("./classes/orders/past-order-router");
+// DEBUG( pastOrders(FORMAT, MOMENT) );
 // DEBUG(`${users}`);
 let ip = '127.0.0.1';
 let port = 8081;

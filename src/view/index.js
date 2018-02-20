@@ -1,4 +1,4 @@
-let html = require("./headers");
+const html = require("./headers");
 module.exports =  `
 	${html.header}
 		<h1>Hello World!</h1>

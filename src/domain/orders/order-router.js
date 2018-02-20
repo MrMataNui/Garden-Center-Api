@@ -27,9 +27,10 @@ module.exports = (req, res, next) => {
 		res.writeHead(200, {"Content-Type": "text/html"});
 		let orderIndex;
 		let index;
-			o_service.retrieveByQuery({}, (docs) => {
+			o_service.retrieveAll( (docs) => {
 				if (docs.length === 0) {
 					res.sendStatus(204);
+					orderIndex = `${orderHtml[0]}${orderHtml[1]}`;
 				} else {
 					let allTableRows = ``;
 					for (let i in docs) {
@@ -75,10 +76,7 @@ module.exports = (req, res, next) => {
 						`;
 					}
 					let orderHtml = require("../../view/orders");
-					orderIndex = `
-						${orderHtml[0]}
-						${allTableRows}
-						${orderHtml[1]}`;
+					orderIndex = ` ${orderHtml[0]} ${allTableRows} ${orderHtml[1]}`;
 				}
 				res.end(orderIndex);
 			}, (err) => {

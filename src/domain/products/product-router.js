@@ -11,9 +11,10 @@ module.exports = (req, res, next) => {
 	require("../router-use")(router, DEBUG, req, res, next);
 	router.get("/", (req, res) => {
 		let productIndex;
-		service.retrieveByQuery({}, (docs) => {
+		service.retrieveAll( (docs) => {
 			if (docs.length === 0) {
 				// res.sendStatus(204);
+				productIndex = `${productHtml[0]}${productHtml[1]}`;
 			} else {
 				let allTableRows = ``;
 				for (let i in docs) {
@@ -37,11 +38,7 @@ module.exports = (req, res, next) => {
 					`;
 				}
 				let productHtml = require("../../view/products");
-				productIndex = `
-					${productHtml[0]}
-					${allTableRows}
-					${productHtml[1]}
-				`;
+				productIndex = ` ${productHtml[0]} ${allTableRows} ${productHtml[1]} `;
 			}
 			res.end(productIndex);
 		}, (err) => {

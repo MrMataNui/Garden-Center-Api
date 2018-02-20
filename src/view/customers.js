@@ -1,10 +1,10 @@
-let html = require("./headers");
-let tableHeader = [`
+const html = require("./headers");
+const tableHeader = [`
 	<tr>
 		<td>ID<td>
 		<td>Name<td>
 		<td>Email<td>
-		<td>Street address<td>
+		<td>Street Address<td>
 		<td>City<td>
 		<td>State<td>
 		<td>Zip<td>

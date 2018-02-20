@@ -1,10 +1,10 @@
-let header = [`
+const header = [`
 	<header>
 		<title>Garden Center API</title>
 		<style>${require("./main-css")}</style>
 	</header>
 `];
-let aside = [`
+const aside = [`
 	<aside>
 		<ul>
 			<li><a href='/'>Home<\a></li>

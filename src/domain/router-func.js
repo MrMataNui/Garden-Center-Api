@@ -61,7 +61,7 @@ module.exports = (name, router, DEBUG, service, req, res, GET, services) => {
 	router.put("/:id", (req, res) => {
 		if (name === "orders") {
 			let newOrder = GET.newOrder(GET, Class, req.body, req.params.id);
-			if (newOrder === "Not Enough Products") {
+			if (newOrder === "Not enough products") {
 				let errorMsg = `${newOrder}. Please order fewer items.`;
 				res.status(400).send(`Error: "${errorMsg}"`);
 			} else {

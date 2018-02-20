@@ -1,5 +1,5 @@
-let html = require("./headers");
-let tableHeader = [`
+const html = require("./headers");
+const tableHeader = [`
 	<tr>
 		<td>ID<td>
 		<td>User<td>
